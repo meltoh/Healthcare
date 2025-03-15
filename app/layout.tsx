@@ -15,7 +15,7 @@ const fontSans = Plus_Jakarta_Sans({
   weight: ['300', '400', '500', '600', '700']
 });
 
- const metadata: Metadata = {
+ export const metadata: Metadata = {
   title: "CarePulse",
   description: "A healthcare management system",
 };
