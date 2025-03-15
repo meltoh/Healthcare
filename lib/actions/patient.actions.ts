@@ -15,7 +15,7 @@ export const createUser = async (user: CreateUserParams) => {
             undefined, 
             user.name
         );
-        return newUser; // Ensure you return the created user
+        return parseStringify(newUser);
     } catch (error: any) {
         if (error && error?.code === 409) {
             const existingUser = await users.list([

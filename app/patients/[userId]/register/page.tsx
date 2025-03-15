@@ -1,7 +1,6 @@
 import RegisterForm from '@/components/forms/RegisterForm'
 import { getPatient, getUser } from '@/lib/actions/patient.actions'
 import Image from 'next/image'
-import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import React from 'react'
 

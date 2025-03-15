@@ -2,7 +2,6 @@
 
 import {
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -23,8 +22,6 @@ import { cn } from '@/lib/utils';
 import { Select, SelectContent, SelectTrigger, SelectValue } from './ui/select';
 import { Textarea } from './ui/textarea';
 import { Checkbox } from './ui/checkbox';
-import { Label } from './ui/label';
-import { SelectLabel } from '@radix-ui/react-select';
 
 interface CustomProps {
     control: Control<any>,

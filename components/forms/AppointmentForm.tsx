@@ -103,8 +103,7 @@ export const AppointmentForm = ({
 
             if (updatedAppointment) {
                 setOpen && setOpen(false);
-                form.reset();
-                
+                form.reset();  
             }
         }
 
